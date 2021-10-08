@@ -82,6 +82,12 @@ nav.navbar-transparente {
     
 }
 
+.carousel-control-next, .carousel-control-prev {
+    width: 5px;
+    color: white;
+}
+
+
 /*---ESTRUTURA DE CONTEUDO ------- */
 
 .caixa {

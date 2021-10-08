@@ -66,13 +66,41 @@
         <div class="container align-self-center"><!--INICIO CLASS CONTAINER-->
           <div class="row"><!--INICIO CLASS ROW-->
             <div class="col-md-12 capa">
-              <h1>Músicas para Todos</h1>
-              <a href="" class="btn btn-lg btn-custom btn-roxo">
-                Aproveite Spotify free
-              </a>
-              <a href="" class="btn btn-lg btn-custom btn-branco">
-                Aproveite Spotify premium
-              </a>
+              
+              <div id="carousel-spotify" class="carousel slide"  data-ride="carousel" style="border: 1px solid red;">
+                <div class="carousel-inner"><!--inner-->
+
+                  <div class="carousel-item active"><!--CLASS CAROUSEL ITEM ACTIVE--> 
+                      <h1>Músicas para Todos</h1>
+                        <a href="" class="btn btn-lg btn-custom btn-roxo">
+                        Aproveite Spotify free
+                        </a>
+
+                        <a href="" class="btn btn-lg btn-custom btn-branco">
+                        Aproveite Spotify premium
+                        </a>
+                  </div><!--/FIM CLASS CAROUSEL ITEM ACTIVE-->
+
+                  <div class="carousel-item"><!--CLASS CAROUSEL ITEM ACTIVE--> 
+                    <h1>As melhores rádios</h1>
+                      <a href="" class="btn btn-lg btn-custom btn-branco">
+                        <i class="fas fa-music"></i> Ouça agora
+                      </a>
+                  </div><!--/FIM CLASS CAROUSEL ITEM ACTIVE-->
+
+                </div><!--/fim inner-->
+
+                <!--CONTROLES-->
+                <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev">
+                  <i class="fas fa-angle-left fa-4x"></i>
+                </a>
+
+                <a href="#carousel-spotify" class="carousel-control-next" data-slide="next">
+                  <i class="fas fa-angle-right fa-4x"></i>
+                </a>
+
+              </div>
+              
 
             </div>
 
